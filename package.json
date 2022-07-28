@@ -1,0 +1,18 @@
+{
+  "name": "secrets-authentication",
+  "version": "1.0.0",
+  "description": "An authentication based web app that stores your secrets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Warsay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "mongoose-encryption": "^2.1.2"
+  }
+}
